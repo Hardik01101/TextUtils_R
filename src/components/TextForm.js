@@ -14,7 +14,6 @@ export default function TextForm(props) {
         setText(event.target.value);
     }
 
-
     const [text, setText] = useState('');
     return (
         <>
